@@ -19,7 +19,7 @@ After STOP 1, help the student propose and approve the six TARGET lines and one 
 
 ## My standing rule
 
-[One observable, student-approved rule that protects this project's purpose or experience.]
+Changing any macro policy control must visibly update a market result, sector result, personal-finance result, and the Cascade Storyteller in the same view without a page refresh.
 
 ## Workflow
 
