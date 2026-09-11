@@ -59,8 +59,8 @@ function update(){
 const d=state.rate-5.25, qt=state.balance, res=(state.reserve-10)/5, stim=state.spend, tax=state.tax;
 const inflation=2.4 + stim*.55 - tax*.22 - d*.12 - qt*.16;
 const growth=-d*.28 - qt*.30 - res*.18 + stim*.72 - tax*.35;
-const y=[state.rate+.08,4.85-d*.30+qt*.12-stim*.08,4.55-d*.12+qt*.10+stim*.11,4.38-d*.05+qt*.08+stim*.22,4.50+qt*.06+stim*.26];
-const slope=y[3]-y[0], bondShift=-(y[3]-4.38)*5.8, sp=-d*2.1-qt*1.25-res*.35+stim*2.8-tax*.75, nas=-d*3.25-qt*1.6-res*.45+stim*3.25-tax*.7;
+const y=[state.rate+.08,5.45-d*.30+qt*.12-stim*.08,5.45-d*.12+qt*.10+stim*.11,5.55-d*.05+qt*.08+stim*.22,5.65+qt*.06+stim*.26];
+const slope=y[3]-y[0], bondShift=-(y[3]-5.55)*5.8, sp=-d*2.1-qt*1.25-res*.35+stim*2.8-tax*.75, nas=-d*3.25-qt*1.6-res*.45+stim*3.25-tax*.7;
 const dxy=100+d*1.45+qt*1.2-res*.35-stim*.6+tax*.15, gold=2000-d*58-qt*24+stim*45, crude=75+stim*6-tax*1.5-d*1.1;
 const prime=state.rate+3, hy=3.8+qt*.55+res*.25-d*.05-stim*.22, tight=cl(50+d*5+qt*10+res*7-stim*9+tax*3);
 const housing=cl(54-d*5.8-qt*2+stim*3), tech=cl(56-d*7-qt*4-res*2+stim*6-tax*1.5), business=cl(54-d*4.5-tight*.16+stim*8-tax*2), labor=cl(55+growth*10-stim*1.2+d*.7);
