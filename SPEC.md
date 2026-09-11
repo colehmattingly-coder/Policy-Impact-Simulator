@@ -1,12 +1,10 @@
 # TARGET: today's build
 
-Choose the idea, person, interaction, and visual direction. The agent can help phrase and save your decisions after you approve them. The provided scope and review safeguards stay in place.
-
-- **Thing:** [My one-page website or mini-app and its main interaction.]
-- **Audience:** [One specific person, and what they want to do or understand.]
-- **Requirements:** One working primary interaction; selected states and results are understandable; honor my approved standing rule in AGENTS.md.
-- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label fictional or sample content. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
-- **Experience:** [My visual reference or direction and the most important layout or interaction relationship.]
-- **Test:** I can complete the main action, check one boundary or factual claim, and point to my standing rule's effect in the actual preview. After I approve and merge, the same registered Pages URL works.
+- **Thing:** Cascade Effect, a one-page interactive simulator where visitors adjust monetary and fiscal policy levers to trace estimated effects from macro policy through markets and sectors to a household’s finances.
+- **Audience:** An everyday homeowner or investor who wants a plain-English way to understand how policy changes could affect their borrowing, savings, investments, and purchasing power.
+- **Requirements:** One working primary interaction: changing any macro control instantly recalculates the yield curve, market indicators, sector heatmap, household outputs, and three-step Cascade Storyteller; users can adjust a household profile and see estimated monthly cash-flow and portfolio effects; honor my approved standing rule in AGENTS.md.
+- **Guardrails:** Static browser code. No required external service, keys, accounts, runtime AI, or private data. Label all modeled prices, forecasts, and metrics as illustrative estimates. Preserve the example and publishing setup. Work on a branch and wait for human review before shipping.
+- **Experience:** A visually striking dark, layered cascade dashboard: glowing policy controls at the top, animated flows through market and sector cards, and a prominent personal-impact panel at the bottom. Prioritize clear directional cause-and-effect over financial precision.
+- **Test:** I can change a policy lever, observe downstream updates across all four levels, verify a yield-curve inversion/steepening boundary, enter a household profile, and identify the standing rule’s effect in the actual preview. After I approve and merge, the same registered Pages URL works.
 
 The coastal example has a [completed TARGET](examples/coast/SPEC.md). It demonstrates the format, not a required topic.
